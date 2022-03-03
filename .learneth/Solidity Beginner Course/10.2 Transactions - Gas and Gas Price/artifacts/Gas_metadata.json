@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/10.2 Transactions - Gas and Gas Price/gasAndGasPrice.sol": "Gas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/10.2 Transactions - Gas and Gas Price/gasAndGasPrice.sol": {
+			"keccak256": "0xd06519ae0f6f75f6f12c827fb09697e386ec3b8ecd68fdbef16850a561fd7beb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://493a4093ffa9134abbbd612ccd371f6b6da300f1ac827b2e762e5c9858fdb521",
+				"dweb:/ipfs/QmPM16GKMko7G59rgejr7DCHjvEdSeYY9Cw5cLEKE8TMbF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Remix IDE/.learneth/Solidity Beginner Course/1. Introduction/introduction.sol": "Counter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Remix IDE/.learneth/Solidity Beginner Course/1. Introduction/introduction.sol": {
+			"keccak256": "0x201c35eebf15e218ae0f74a751b512f98136f737c35963f70387ce260b3023f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ff5b8916fcee976aa13df43b9ea58cb08ec02f4b0659bccffd447b62dc95296",
+				"dweb:/ipfs/QmREqxAe5MEMsDHtQrUQXwdroCsnMoMckYgmF1jcJzCLbA"
+			]
+		}
+	},
+	"version": 1
+}
