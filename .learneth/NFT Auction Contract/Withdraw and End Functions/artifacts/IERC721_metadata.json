@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "safeTransferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/NFT Auction Contract/Withdraw and End Functions/auctionContractWithdrawEnd.sol": "IERC721"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/NFT Auction Contract/Withdraw and End Functions/auctionContractWithdrawEnd.sol": {
+			"keccak256": "0x56ca59a05d6f1f385e65ce7a7e4c2a82d0b9b2dab53fbd067f5a80d0922732c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a64b9d9ba59c3861e184447dec2e0583b9be89dbd626d96f4d4a31b229244616",
+				"dweb:/ipfs/QmY9rN9fgGS3wKhriTrNEqyDLHCBGwbqBaTBk3ikc2jgjq"
+			]
+		}
+	},
+	"version": 1
+}
