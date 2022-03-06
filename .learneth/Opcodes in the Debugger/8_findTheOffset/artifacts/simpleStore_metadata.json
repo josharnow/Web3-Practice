@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "_o",
+						"type": "uint256[2]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Opcodes in the Debugger/8_findTheOffset/notSoSimpleStorage.sol": "simpleStore"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Opcodes in the Debugger/8_findTheOffset/notSoSimpleStorage.sol": {
+			"keccak256": "0x66bfbdb71b9a909347b5bcc41a073882df947aaa2d03b899ccb2ec46262d366b",
+			"urls": [
+				"bzz-raw://4db31ab74b0dcccf49569fb6e3529c2e7cf08f7393eb3b04b2bb9215022ce156",
+				"dweb:/ipfs/QmUoShCuukVeNVFpLxZnNC5vAhnddXxgs3DMfekrY3vioP"
+			]
+		}
+	},
+	"version": 1
+}

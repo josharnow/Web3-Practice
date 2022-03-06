@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_o",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Opcodes in the Debugger/1_intro/simpleStorage.sol": "simpleStore"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Opcodes in the Debugger/1_intro/simpleStorage.sol": {
+			"keccak256": "0xb6419a9999a7230584c29a62786c6c7694dbfa35c2745a6aa700e4dce239ff5e",
+			"urls": [
+				"bzz-raw://33035322321d9365ebcedf6e6656649e22b06287613242885e9f8b831e6d0577",
+				"dweb:/ipfs/QmTE8dMh4FnbzXwdziRwAH5uFLnnSRz2kZjDTE7V75bpNS"
+			]
+		}
+	},
+	"version": 1
+}
