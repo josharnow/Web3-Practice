@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": "aLib"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+			"keccak256": "0x0c5a13bde03cdb98979d780ed6bfd9ae9b1c208e3f8265332ff7512e621a2586",
+			"urls": [
+				"bzz-raw://5db24d1a794803537a6c354f8bdc362890325059f2d8a0d11cc622403f673fc6",
+				"dweb:/ipfs/QmdwBhnddce82jajtfwpv9CeetQ8X6TbmbkaCMiuUjuQTd"
+			]
+		}
+	},
+	"version": 1
+}

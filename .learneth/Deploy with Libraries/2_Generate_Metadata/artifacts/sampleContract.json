@@ -1,0 +1,126 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "0xd9145CCE52D386f254917e481eB44e9943F39138"
+				}
+			},
+			"autoDeployLib": false
+		},
+		"main:1": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": [
+						{
+							"length": 20,
+							"start": 86
+						}
+					]
+				}
+			},
+			"object": "608060405234801561001057600080fd5b5060c78061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b60336035565b005b73__$93262fa7f49847de99b1908617a7be2615$__63874f33a16040518163ffffffff1660e01b815260040160006040518083038186803b158015607857600080fd5b505af4158015608b573d6000803e3d6000fd5b5050505056fea2646970667358221220132370bb634a945e5a2d05148c2b8009271e8cc1410199531b636c8002d2adc664736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xC7 DUP1 PUSH2 0x1F PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6D4CE63C EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH20 0x0 PUSH4 0x874F33A1 PUSH1 0x40 MLOAD DUP2 PUSH4 0xFFFFFFFF AND PUSH1 0xE0 SHL DUP2 MSTORE PUSH1 0x4 ADD PUSH1 0x0 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 DUP7 DUP1 EXTCODESIZE ISZERO DUP1 ISZERO PUSH1 0x78 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP GAS DELEGATECALL ISZERO DUP1 ISZERO PUSH1 0x8B JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SGT 0x23 PUSH17 0xBB634A945E5A2D05148C2B8009271E8CC1 COINBASE ADD SWAP10 MSTORE8 SHL PUSH4 0x6C8002D2 0xAD 0xC6 PUSH5 0x736F6C6343 STOP ADDMOD SMOD STOP CALLER ",
+			"sourceMap": "27:86:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@get_10": {
+					"entryPoint": 53,
+					"id": 10,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {
+				".learneth/Deploy with Libraries/2_Generate_Metadata/2_contractSimpleLibrary.sol": {
+					"aLib": [
+						{
+							"length": 20,
+							"start": 55
+						}
+					]
+				}
+			},
+			"object": "6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b60336035565b005b73__$93262fa7f49847de99b1908617a7be2615$__63874f33a16040518163ffffffff1660e01b815260040160006040518083038186803b158015607857600080fd5b505af4158015608b573d6000803e3d6000fd5b5050505056fea2646970667358221220132370bb634a945e5a2d05148c2b8009271e8cc1410199531b636c8002d2adc664736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6D4CE63C EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH20 0x0 PUSH4 0x874F33A1 PUSH1 0x40 MLOAD DUP2 PUSH4 0xFFFFFFFF AND PUSH1 0xE0 SHL DUP2 MSTORE PUSH1 0x4 ADD PUSH1 0x0 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 DUP7 DUP1 EXTCODESIZE ISZERO DUP1 ISZERO PUSH1 0x78 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP GAS DELEGATECALL ISZERO DUP1 ISZERO PUSH1 0x8B JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SGT 0x23 PUSH17 0xBB634A945E5A2D05148C2B8009271E8CC1 COINBASE ADD SWAP10 MSTORE8 SHL PUSH4 0x6C8002D2 0xAD 0xC6 PUSH5 0x736F6C6343 STOP ADDMOD SMOD STOP CALLER ",
+			"sourceMap": "27:86:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;57:54;;;:::i;:::-;;;90:4;:12;:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;57:54::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "39800",
+				"executionCost": "93",
+				"totalCost": "39893"
+			},
+			"external": {
+				"get()": "infinite"
+			}
+		},
+		"methodIdentifiers": {
+			"get()": "6d4ce63c"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"name": "get",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}
