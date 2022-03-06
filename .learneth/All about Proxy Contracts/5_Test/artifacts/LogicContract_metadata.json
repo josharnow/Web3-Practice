@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/All about Proxy Contracts/5_Test/step5.sol": "LogicContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/All about Proxy Contracts/5_Test/step5.sol": {
+			"keccak256": "0xa4db4c4c02c1d1d5dc5fd3949fce1e8f70c5d1a45056e56ed882b97c72b47551",
+			"urls": [
+				"bzz-raw://6f0cb18419a21a4f4c66d1f19028eccc774f0c8ca90638f4b314c9a3cfb56433",
+				"dweb:/ipfs/QmUvd99MXwgK7GAd2vwW98ANCY9HY7sjpepUcVz1YhgJ3B"
+			]
+		}
+	},
+	"version": 1
+}
